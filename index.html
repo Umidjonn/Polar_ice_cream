@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+    <title>Polar - Ice cream</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        
+    <!-- Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <!-- Logo, navigations, button buy -->
+    <header class="header">
+        <div class="container container--header ">
+            <!-- Logo -->
+            <a class="header__logo logo" href="./index.html">
+                <img src="./icons/png/logo.png" alt="Logo">
+            </a>
+            
+            <!-- Navigations -->
+            <ul class="header__navigations navigations">
+                <li class="navigations__item">
+                    <a class="navigations__link navigations__link--current" href="#">Home</a>
+                </li>
+                <li class="navigations__item">
+                    <a class="navigations__link" href="#">Product</a>
+                </li>
+                <li class="navigations__item">
+                    <a class="navigations__link" href="#">Pricing</a>
+                </li>
+                <li class="navigations__item">
+                    <a class="navigations__link" href="#">Testimonials</a>
+                </li>
+                <li class="navigations__item">
+                    <a class="navigations__link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            
+            <!-- Button nuy now -->
+            <button class="header__button button" type="button">Buy Now</button>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="container container--hero">
+                <p class="hero__subtitle">Sweet fun, full of milk.</p>
+                <h1 class="hero__title">Feel inside cold with <br> our delicious <span class="hero__title-color">ice-cream</span>.
+                </h1>
+                <p class="hero__description">
+                    Some food has looked so awful that it's looked like something that<br>
+                    the dog's brought home, yet after one mouthful I've been left<br>
+                    eating my thoughts, my words.
+                </p>
+                <button class="hero__button button" type="button">Buy Now</button>
+            </div>
+        </section>
+        
+        <!-- Section our advantages -->
+        <section class="section">
+            <div class="container">
+                <h2 class="visually-hidden">Our advantages</h2>
+                <ul class="advantages">
+                    <li class="advantages__item">
+                        <img class="advantages__image"
+                            srcset="
+                                ./images/1160/advantage/1/img@1x.png 1x,
+                                ./images/1160/advantage/1/img@2x.png 2x,
+                                ./images/1160/advantage/1/img@3x.png 3x
+                            "
+                            src="./images/1160/advantage/1/img@1x.png"
+                            alt="Free Shipping"
+                            width="51"
+                            height="44"
+                        >
+                        <h3 class="advantages__title">Free Shipping</h3>
+                        <p class="advantages__description">Last Chance! Free shipping on all orders ends today.</p>
+                    </li>
+                    <li class="advantages__item">
+                        <img class="advantages__image"
+                            srcset="
+                                ./images/1160/advantage/2/img@1x.png 1x,
+                                ./images/1160/advantage/2/img@2x.png 2x,
+                                ./images/1160/advantage/2/img@3x.png 3x
+                            "
+                            src="./images/1160/advantage/2/img@1x.png"
+                            alt="Quick Packaging"
+                            width="32"
+                            height="42"
+                        >
+                        <h3 class="advantages__title">Quick Packaging</h3>
+                        <p class="advantages__description">Last Chance! Free shipping on all orders ends today.</p>
+                    </li>
+                    <li class="advantages__item">
+                        <img class="advantages__image"
+                            srcset="
+                                ./images/1160/advantage/3/img@1x.png 1x,
+                                ./images/1160/advantage/3/img@2x.png 2x,
+                                ./images/1160/advantage/3/img@3x.png 3x
+                            "
+                            src="./images/1160/advantage/3/img@1x.png"
+                            alt="100% Money Back"
+                            width="44"
+                            height="44"
+                        >
+                        <h3 class="advantages__title">100% Money Back</h3>
+                        <p class="advantages__description">Last Chance! Free shipping on all orders ends today.</p>
+                    </li>
+                    <li class="advantages__item">
+                        <img class="advantages__image"
+                            srcset="
+                                ./images/1160/advantage/4/img@1x.png 1x,
+                                ./images/1160/advantage/4/img@2x.png 2x,
+                                ./images/1160/advantage/4/img@3x.png 3x
+                            "
+                            src="./images/1160/advantage/4/img@1x.png"
+                            alt="Fast Delivery"
+                            width="54"
+                            height="54"
+                        >
+                        <h3 class="advantages__title">Fast Delivery</h3>
+                        <p class="advantages__description">Last Chance! Free shipping on all orders ends today.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Section with our best offer -->
+        <section class="section section--best-offer">
+            <div class="container">
+                <div class="best-offer">
+                    <h2 class="best-offer__title">Brown Sugar <br> Oatmea</h2>
+                    <p class="best-offer__description">
+                        Together with McDonald’s, Burger King has grown to become<br>
+                        synonymous with burgers in the US.Together with McDonald’s,<br>
+                        Burger King has grown to become synonymous.
+                    </p>
+                    <a class="best-offer__link" href="#">See Details</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Our product section -->
+        <section class="section section--product">
+            <div class="container">
+                <h2 class="section__title">Our Product</h2>
+                
+                <!-- Filter button -->
+                <form class="filter-product" action="#">
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="ICE CREAM" checked>
+                        <span class="filter-product__text">ICE CREAM</span>
+                    </label>
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="CAYENNE CHOCOLATE">
+                        <span class="filter-product__text">CAYENNE CHOCOLATE</span>
+                    </label>
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="">
+                        <span class="filter-product__text">CAKE BATTER</span>
+                    </label>
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="CANDY CANE">
+                        <span class="filter-product__text">CANDY CANE</span>
+                    </label>
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="PLATTERS">
+                        <span class="filter-product__text">PLATTERS</span>
+                    </label>
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="DESSERT">
+                        <span class="filter-product__text">DESSERT</span>
+                    </label>
+                </form>
+                
+                <!-- Products -->
+                <ul class="our-products">
+                    <li class="our-products__item">
+                        <article class="our-products__article">
+                            <div class="our-products__image">
+                                <img
+                                    srcset="
+                                        ./images/1160/our-products/1/img@1x.png 1x,
+                                        ./images/1160/our-products/1/img@2x.png 2x,
+                                        ./images/1160/our-products/1/img@3x.png 3x
+                                    "
+                                    src="./images/1160/our-products/1/img@1x.png"
+                                    alt="Brown bread"
+                                    width="580"
+                                    height="415"
+                                >
+                            </div>
+                            <div class="our-products__meta">
+                                <h2 class="our-products__title">Brown bread</h2>
+                                <p class="our-products__descripton">
+                                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast
+                                    food scene.Bon Au
+                                    Pain is a pioneer in the healthy fast food scene.
+                                </p>
+                                <div class="our-products__price-wrapper">
+                                    <span class="our-products__price">$19.55</span>
+                                    <span class="our-products__price our-products__price--old">$22.55</span>
+                                </div>
+                                <button class="our-products__button button" type="button">Buy Now</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="our-products__item">
+                        <article class="our-products__article">
+                            <div class="our-products__image">
+                                <img
+                                    srcset="
+                                        ./images/1160/our-products/2/img@1x.png 1x,
+                                        ./images/1160/our-products/2/img@2x.png 2x,
+                                        ./images/1160/our-products/2/img@3x.png 3x
+                                    "
+                                    src="./images/1160/our-products/2/img@1x.png"
+                                    alt="Cayenne chocolate"
+                                    width="580"
+                                    height="415"
+                                >
+                            </div>
+                            <div class="our-products__meta">
+                                <h2 class="our-products__title">Cayenne chocolate</h2>
+                                <p class="our-products__descripton">
+                                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast
+                                    food scene.Bon Au
+                                    Pain is a pioneer in the healthy fast food scene.
+                                </p>
+                                <div class="our-products__price-wrapper">
+                                    <span class="our-products__price">$19.55</span>
+                                    <span class="our-products__price our-products__price--old">$22.55</span>
+                                </div>
+                                <button class="our-products__button button" type="button">Buy Now</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="our-products__item">
+                        <article class="our-products__article">
+                            <div class="our-products__image">
+                                <img
+                                    srcset="
+                                        ./images/1160/our-products/3/img@1x.png 1x,
+                                        ./images/1160/our-products/3/img@2x.png 2x,
+                                        ./images/1160/our-products/3/img@3x.png 3x
+                                    "
+                                    src="./images/1160/our-products/3/img@1x.png"
+                                    alt="Sweet corn"
+                                    width="580"
+                                    height="415"
+                                >
+                            </div>
+                            <div class="our-products__meta">
+                                <h2 class="our-products__title">Sweet corn</h2>
+                                <p class="our-products__descripton">
+                                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast
+                                    food scene.Bon Au
+                                    Pain is a pioneer in the healthy fast food scene.
+                                </p>
+                                <div class="our-products__price-wrapper">
+                                    <span class="our-products__price">$19.55</span>
+                                    <span class="our-products__price our-products__price--old">$22.55</span>
+                                </div>
+                                <button class="our-products__button button" type="button">Buy Now</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Feedback section -->
+        <section class="section section--feedback">
+            <h2 class="visually-hidden">Feedback</h2>
+            
+            <div class="container">
+                <div class="feedback">
+                    <!-- Left side, text -->
+                    <div class="feedback__meta">
+                        <div class="feedback__name">
+                            <img
+                                srcset="
+                                    ./images/1160/feedback/2/img@1x.png 1x,
+                                    ./images/1160/feedback/2/img@2x.png 2x,
+                                    ./images/1160/feedback/2/img@3x.png 3x
+                                "
+                                src="./images/1160/feedback/2/img@1x.png" 
+                                alt="Adele A. McNeill"
+                                width="59"
+                                height="58"
+                            >
+                            <div class="feedback__name-wrapper">
+                                <h3 class="feedback__title">Adele A. McNeill</h3>
+                                <p class="feedback__company">AMIRICAN</p>
+                            </div>
+                        </div>
+                        <div class="feedback__description-wrapper">
+                            <svg class="feedback__icon">
+                                <use href="./icons/sprite.svg#icon-quotes"></use>
+                            </svg>
+                            <p class="feedback__description">
+                                Thanks a lot for the prompt service. Really appreciate. Excellence taste in Every Bite.Add a joy of best Taste.
+                                Foodie
+                                Moments.
+                                <svg class="feedback__icon feedback__icon--rotate">
+                                    <use href="./icons/sprite.svg#icon-quotes-rotate"></use>
+                                </svg>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Right side, image -->
+                    <div class="feedback__image">
+                        <img
+                            srcset="
+                                ./images/1160/feedback/1/img@1x.png 1x,
+                                ./images/1160/feedback/1/img@2x.png 2x,
+                                ./images/1160/feedback/1/img@3x.png 3x
+                            "
+                            src="./images/1160/feedback/1/img@1x.png" 
+                            alt="Three scoops of ice cream"
+                            width="564"
+                            height="442"
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Mobile application section -->
+        <section class="section section--application">
+            <div class="container">
+                <div class="application">
+                    <!-- Images -->
+                    <div class="application__images">
+                        <img
+                            srcset="
+                                ./images/1160/application/1/img@1x.png 1x,
+                                ./images/1160/application/1/img@2x.png 2x,
+                                ./images/1160/application/1/img@3x.png 3x
+                            "
+                            src="./images/1160/application/1/img@1x.png"
+                            alt="Mobile application for ordering ice cream"
+                            width="305"
+                            height="627"
+                        >
+                    </div>
+                    
+                    <!-- Text -->
+                    <div class="application__meta">
+                        <h2 class="application__title">Simple Way To Order Your Food</h2>
+                        <p class="application__description">
+                            Some food has looked so awful that it's looked like something that the dog's brought home, yet after one
+                            mouthful I've
+                            been left eating my thoughts.
+                        </p>
+                        <ul class="application__advantages">
+                            <li class="application__advantages-item">
+                                <span class="application__advantages-icon-wrapper">
+                                    <svg class="application__advantages-icon" width="11" height="15">
+                                        <use href="./icons/sprite.svg#icon-application-1"></use>
+                                    </svg>
+                                </span>
+                                <span class="application__advantages-text">Select Your Food</span>
+                            </li>
+                            <li class="application__advantages-item">
+                                <span class="application__advantages-icon-wrapper">
+                                    <svg class="application__advantages-icon" width="14" height="13">
+                                        <use href="./icons/sprite.svg#icon-application-2"></use>
+                                    </svg>
+                                </span>
+                                <span class="application__advantages-text">Add To Cart</span>
+                            </li>
+                            <li class="application__advantages-item">
+                                <span class="application__advantages-icon-wrapper">
+                                    <svg class="application__advantages-icon" width="16" height="12">
+                                        <use href="./icons/sprite.svg#icon-application-3"></use>
+                                    </svg>
+                                </span>
+                                <span class="application__advantages-text">Order Your Food</span>
+                            </li>
+                        </ul>
+                    
+                        <!-- Mobile app store -->
+                        <ul class="application__store">
+                            <li class="application__store-item">
+                                <a class="application__store-link" href="#" target="_blank" rel="noopener noreferer">
+                                    <img
+                                        srcset="
+                                            ./images/1160/application/2/img@1x.png 1x,
+                                            ./images/1160/application/2/img@2x.png 2x,
+                                            ./images/1160/application/2/img@3x.png 3x
+                                        "
+                                        src="./images/1160/application/2/img@1x.png"
+                                        alt="Google play"
+                                        width="200"
+                                        height="77"
+                                    >
+                                </a>
+                            </li>
+                            <li class="application__store-item">
+                                <a class="application__store-link" href="#" target="_blank" rel="noopener noreferer">
+                                    <img
+                                        srcset="
+                                            ./images/1160/application/3/img@1x.png 1x,
+                                            ./images/1160/application/3/img@2x.png 2x,
+                                            ./images/1160/application/3/img@3x.png 3x
+                                        "
+                                        src="./images/1160/application/3/img@1x.png"
+                                        alt="App store"
+                                        width="173"
+                                        height="88"
+                                    >
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Feedback form -->
+        <section class="section section--feedback-form">
+            <div class="container">
+                <h2 class="section__title section__title--feedback-form">Have Question in Mind? <br> Let us help you</h2>
+                <form class="feedback-form" action="#">
+                    <label class="feedback-form__wrapper">
+                        <input class="feedback-form__input" type="text" name="qestion" placeholder="Enter your question">
+                    </label>
+                    <button class="feedback-form__button button" type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="section section--footer">    
+        <div class="container">
+            <div class="footer">
+                <!-- Logo, text, social media -->
+                <div class="footer__description description">
+                    <!-- Logo -->
+                    <a class="description__logo logo" href="./index.html">
+                        <img class="logo__icon" src="./icons/png/logo.png" alt="Logo">
+                    </a>
+                
+                    <!-- Text -->
+                    <p class="description__text">
+                        Some food has looked so awful that it's looked like something that the dog's brought home.
+                    </p>
+                
+                    <!-- Social media -->
+                    <p class="media__title">Fllow Us</p>
+                    <ul class="description__media media">
+                        <li class="media__item">
+                            <a class="media__link" href="#" target="_blank" rel="noopener noreferer">
+                                <svg class="media__icon">
+                                    <use href="./icons/sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="media__item">
+                            <a class="media__link" href="#" target="_blank" rel="noopener noreferer">
+                                <svg class="media__icon">
+                                    <use href="./icons/sprite.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="media__item">
+                            <a class="media__link" href="#" target="_blank" rel="noopener noreferer">
+                                <svg class="media__icon">
+                                    <use href="./icons/sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="media__item">
+                            <a class="media__link" href="#" target="_blank" rel="noopener noreferer">
+                                <svg class="media__icon">
+                                    <use href="./icons/sprite.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Page navigations -->
+                <ul class="footer__navigations-footer navigations-footer">
+                    <li class="navigations-footer__item">
+                        <a class="navigations-footer__link" href="#">Home</a>
+                    </li>
+                    <li class="navigations-footer__item">
+                        <a class="navigations-footer__link" href="#">Product</a>
+                    </li>
+                    <li class="navigations-footer__item">
+                        <a class="navigations-footer__link" href="#">Blog</a>
+                    </li>
+                    <li class="navigations-footer__item">
+                        <a class="navigations-footer__link" href="#">Pricing</a>
+                    </li>
+                    <li class="navigations-footer__item">
+                        <a class="navigations-footer__link" href="#">Testimonials</a>
+                    </li>
+                    <li class="navigations-footer__item">
+                        <a class="navigations-footer__link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                
+                <!-- Product information -->
+                <ul class="footer__navigations-product navigations-product">
+                    <li class="navigations-product__item">
+                        <a class="navigations-product__link" href="#">Delivery Information</a>
+                    </li>
+                    <li class="navigations-product__item">
+                        <a class="navigations-product__link" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="navigations-product__item">
+                        <a class="navigations-product__link" href="#">Terms & Condition</a>
+                    </li>
+                    <li class="navigations-product__item">
+                        <a class="navigations-product__link" href="#">Search Terms</a>
+                    </li>
+                    <li class="navigations-product__item">
+                        <a class="navigations-product__link" href="#">Order & Return</a>
+                    </li>
+                </ul>
+                
+                <!-- Subscription form, payment systems -->
+                <div class="footer__newsletter newsletter">
+                    <!-- Subscription form -->
+                    <form class="newsletter__subscription-form subscription-form" action="#">
+                        <label class="subscription-form__wrapper">
+                            <span class="subscription-form__label">Newsletter</span>
+                            <input class="subscription-form__input" type="email" name="subscription-name" placeholder="Your Email">
+                        </label>
+                        <button class="subscription-form__button button" type="submit">Subscribe</button>
+                    </form>
+                
+                    <!-- Payment systems -->
+                    <ul class="newsletter__payment payment">
+                        <li class="payment__item">
+                            <svg class="payment__icon" width="19" height="22">
+                                <use href="./icons/sprite.svg#icon-paypall"></use>
+                            </svg>
+                        </li>
+                        <li class="payment__item">
+                            <svg class="payment__icon"  width="34" height="20">
+                                <use href="./icons/sprite.svg#icon-mastercard"></use>
+                            </svg>
+                        </li>
+                        <li class="payment__item">
+                            <svg class="payment__icon"  width="47" height="15">
+                                <use href="./icons/sprite.svg#icon-visa"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
